@@ -15,6 +15,11 @@ public class Main {
         return a + b + c;
     }
 
+    public double add(double a, double b, double c, double d) {
+        System.out.println("This is add method for 4 parameters");
+        return a + b + c + d;
+    }
+
     public int sub(int a, int b) {
         return a - b;
     }
