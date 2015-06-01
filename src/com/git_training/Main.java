@@ -7,6 +7,7 @@ public class Main {
 
     public double add(double a, double b) {
         System.out.println("This is add method");
+        System.out.println("This is add method");
         return a + b;
     }
 
