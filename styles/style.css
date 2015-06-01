@@ -1,0 +1,291 @@
+body {
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+p {
+	margin: 20px 0;
+}
+
+#wrapper {
+	max-width: 1024px;
+	margin: auto;
+	position:relative;
+}
+
+header {
+	padding: 15px 10px 0px 10px;
+	background-color:#29c5e6;
+	height:50px;
+	position:relative;
+	z-index:1000;
+}
+
+ul#nav {
+	float:right;
+	margin:5px 10px 5px 0px;
+	padding:0;
+	list-style-type:none;
+	z-index:9999;
+}
+
+
+
+#nav ul{
+	list-style:none;
+	position:absolute;
+	left:-9999px; 
+	
+	opacity:0;
+	-webkit-transition:0.25s linear opacity;
+	
+}
+
+#nav ul li{
+	padding-top:1px;
+	float:none;
+	width:30px;
+	overflow:hidden;
+}
+
+#nav ul a{
+	white-space:nowrap;
+	display:block;
+	background-image:url(/images/sprite.png);
+	height:30px;
+}
+
+#nav a.twitter{
+	background-position:-31px;
+}
+
+#nav a.youtube{
+	background-position:-62px;
+}
+
+#nav a.instagram{
+	background-position:-93px;
+}
+
+#nav a.linkedIn{
+	background-position:-125px;
+}
+
+
+a.facebook {
+	width:30px;
+	height:28px;
+	overflow:hidden;
+	display:block;
+	margin-top:-3px;
+	background-image:url(/images/sprite.png);
+}
+
+#nav li:hover ul{
+	left:684px;
+	opacity:1;
+}
+
+header span {
+	float:right;
+}
+
+header span a {
+	text-decoration:none;
+	font:20px 'Oswald', sans-serif;
+	color:#fff;
+	margin-right:10px;
+}
+
+
+form[name="search"] {
+	float: right;
+}
+
+#logIn{
+	height:20px;
+	background-color: #8f8f8f;
+	margin-bottom:20px;
+}
+
+aside {
+	float: left;
+	width: 350px;
+}
+
+input.active{
+	color:#000;
+	background:url(/images/active.png) #ccc no-repeat 320px;
+
+}
+
+section {
+	margin-left: 380px;
+	padding-bottom: 50px;
+}
+
+#heading {
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0 10px;
+}
+
+form[name='route'] input{
+	font-weight: 300;
+	border:none;
+        border-bottom: 1px solid #8f8f8f;
+        margin:2px;
+        width:330px;
+	
+}
+
+form[name='route'] input:focus{
+    color: #29c5e6;
+}
+
+aside h2{
+	background: #29c5e6;
+	font: 20px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding: 0 10px;
+}
+
+aside div {
+	border: 1px solid #e7e7e7;
+	padding: 10px;
+	margin: 0;
+	font-size:14px;
+	background-color:#f3f3f3;
+}
+aside div a{
+	text-decoration:none;
+	color:#29c5e6;
+}
+
+
+#rtf{
+	background-image: url(/images/rtf.png);
+	margin:0;
+}
+
+section div#completed{
+	border: 1px solid #e7e7e7;
+	padding: 10px;
+    	margin: 0;
+        font: 14px 'Oswald', sans-serif;
+	background-color:#f3f3f3;
+}
+
+div#completed a{
+	text-decoration:none;
+	color:#29c5e6;
+}
+
+section div h3 {
+	font:18px 'Oswald', sans-serif;
+}
+
+section > h2 {
+	background: #29c5e6;
+	font: 30px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding: 0 10px;
+	margin: 30px 0 0 0;
+}
+
+
+
+/*-----*/
+div#links{
+	width:1022px !important;
+	margin-top:10px;
+	background:#000;
+	box-shadow:0 0 5px rgba(0,0,0,0.8);
+	padding:1px;
+}
+
+#ui-carousel-next,#ui-carousel-prev {
+	text-decoration:none;
+	color:#666;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	cursor:pointer;
+	border:2px solid #666;
+	border-radius:30px;
+	display:inline-block;
+	padding:0 10px 5px 10px;
+	opacity:.2;
+}
+
+a {
+	outline:none;
+}
+
+#ui-carousel-next:hover,#ui-carousel-prev:hover {
+	color:#fff;
+	border:2px solid #fff;
+	opacity:1;
+}
+
+#ui-carousel-prev {
+	position:absolute;
+	top:105px;
+	left:10px;
+}
+
+#ui-carousel-next {
+	position:absolute;
+	top:105px;
+	right:10px;
+}
+
+div#map-canvas {
+	height:450px;
+	width:644px;
+	margin-top:16px;
+}
+
+/*404*/
+.fourzerofour {
+	text-align:center;
+}
+
+.fourzerofour h2 {
+	font:60px 'Oswald', sans-serif;
+}
+
+.fourzerofour p {
+	font-size:30px;
+}
+
+#start_img, #point1_img, #point2_img, #point3_img, #end_img {
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    right: 5px;
+    padding: 5px;
+    z-index: 5;
+    border: 1px solid #999;
+    background: #fff;
+}
+
