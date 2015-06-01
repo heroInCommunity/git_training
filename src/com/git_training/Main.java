@@ -5,6 +5,11 @@ public class Main {
         return a + b;
     }
 
+    public double add(double a, double b) {
+        System.out.println("This is add method");
+        return a + b;
+    }
+
     public int sub(int a, int b) {
         return a - b;
     }
