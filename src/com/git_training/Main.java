@@ -10,6 +10,11 @@ public class Main {
         return a + b;
     }
 
+    public double add(double a, double b, double c) {
+        System.out.println("This is add method for 3 parameters");
+        return a + b + c;
+    }
+
     public int sub(int a, int b) {
         return a - b;
     }
