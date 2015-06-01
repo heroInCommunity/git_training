@@ -1,0 +1,119 @@
+3ff48ba HEAD@{0}: merge advanced-operation: Fast-forward
+8d989ae HEAD@{1}: checkout: moving from advanced-operation to develop
+3ff48ba HEAD@{2}: commit: Finish advanced
+2eacf8b HEAD@{3}: checkout: moving from 30d7ae9ea738f8bdd4eb4270b47a0684823b7c8c to advanced-operation
+30d7ae9 HEAD@{4}: checkout: moving from advanced-operation to 30d7ae9
+2eacf8b HEAD@{5}: commit: Update add for 4 params
+6b2f474 HEAD@{6}: commit: Update add for 3 params
+30d7ae9 HEAD@{7}: commit: Update add operation
+8d989ae HEAD@{8}: checkout: moving from develop to advanced-operation
+8d989ae HEAD@{9}: merge other-operation: Fast-forward
+e360286 HEAD@{10}: checkout: moving from other-operation to develop
+8d989ae HEAD@{11}: rebase -i (finish): returning to refs/heads/other-operation
+8d989ae HEAD@{12}: rebase -i (continue): Provide basic number operations
+274c646 HEAD@{13}: rebase -i (squash): # This is a combination of 4 commits.
+d651597 HEAD@{14}: rebase -i (squash): # This is a combination of 3 commits.
+b334b3b HEAD@{15}: rebase -i (squash): # This is a combination of 2 commits.
+3f8115b HEAD@{16}: rebase -i (start): checkout HEAD~5
+f47e0f4 HEAD@{17}: commit (merge): Merge conflict
+417266a HEAD@{18}: checkout: moving from new_branch_name to other-operation
+84e5b38 HEAD@{19}: checkout: moving from other-operation to new_branch_name
+417266a HEAD@{20}: checkout: moving from 84e5b38a535b0f28d3bc7996509de1e759daf95b to other-operation
+84e5b38 HEAD@{21}: rebase -i (squash): Provide basic number operations
+819c569 HEAD@{22}: rebase -i (squash): # This is a combination of 4 commits.
+f01faf3 HEAD@{23}: rebase -i (squash): # This is a combination of 3 commits.
+2e751a6 HEAD@{24}: rebase -i (squash): # This is a combination of 2 commits.
+3f8115b HEAD@{25}: rebase -i (start): checkout develop
+93543b8 HEAD@{26}: commit: Add sqrt
+417266a HEAD@{27}: checkout: moving from a5c97f59974c323f2d81f9c48fb19f836e3df944 to 417266a
+a5c97f5 HEAD@{28}: checkout: moving from other-operation to a5c97f5
+417266a HEAD@{29}: commit: Add sqrtBad
+a5c97f5 HEAD@{30}: commit: Add mult
+1586de0 HEAD@{31}: commit: Add div
+3f8115b HEAD@{32}: commit: Add sub
+e360286 HEAD@{33}: checkout: moving from develop to other-operation
+e360286 HEAD@{34}: commit: Begin 2.1
+d1cb7e4 HEAD@{35}: merge rebase2: Fast-forward
+407c5eb HEAD@{36}: checkout: moving from rebase2 to develop
+d1cb7e4 HEAD@{37}: rebase -i (finish): returning to refs/heads/rebase2
+d1cb7e4 HEAD@{38}: rebase -i (squash): 1.2 Merge first case for second branch
+973dfe6 HEAD@{39}: rebase -i (squash): # This is a combination of 2 commits.
+64a5966 HEAD@{40}: rebase -i (start): checkout HEAD~4
+05b477a HEAD@{41}: rebase finished: returning to refs/heads/rebase2
+05b477a HEAD@{42}: rebase: 3
+75101f8 HEAD@{43}: rebase: 2
+64a5966 HEAD@{44}: rebase: 1
+407c5eb HEAD@{45}: rebase: checkout develop
+93bbe46 HEAD@{46}: checkout: moving from develop to rebase2
+407c5eb HEAD@{47}: rebase -i (finish): returning to refs/heads/develop
+407c5eb HEAD@{48}: rebase -i (squash): 1.2 Merge first case
+c3cf138 HEAD@{49}: rebase -i (squash): # This is a combination of 2 commits.
+81dabce HEAD@{50}: rebase -i (start): checkout HEAD~4
+2098625 HEAD@{51}: checkout: moving from rebase1 to develop
+2098625 HEAD@{52}: rebase -i (finish): returning to refs/heads/rebase1
+2098625 HEAD@{53}: checkout: moving from rebase2 to develop
+93bbe46 HEAD@{54}: checkout: moving from develop to rebase2
+2098625 HEAD@{55}: merge rebase1: Fast-forward
+7bac1d1 HEAD@{56}: checkout: moving from aae8f7d8e9be548abca131e3bb02d46d7a0e05e2 to develop
+aae8f7d HEAD@{57}: rebase -i (continue): 1.2 Merge for the first case
+7bac1d1 HEAD@{58}: rebase -i (start): checkout develop
+2098625 HEAD@{59}: checkout: moving from rebase2 to rebase1
+93bbe46 HEAD@{60}: commit: 3
+6463def HEAD@{61}: commit: 2
+f81ed85 HEAD@{62}: commit: 1
+7bac1d1 HEAD@{63}: checkout: moving from develop to rebase2
+7bac1d1 HEAD@{64}: checkout: moving from rebase1 to develop
+2098625 HEAD@{65}: commit: 3
+060de30 HEAD@{66}: commit: 2
+81dabce HEAD@{67}: commit: 1
+7bac1d1 HEAD@{68}: checkout: moving from develop to rebase1
+7bac1d1 HEAD@{69}: merge image-rebase: Fast-forward
+088bdcb HEAD@{70}: checkout: moving from image-rebase to develop
+7bac1d1 HEAD@{71}: rebase -i (finish): returning to refs/heads/image-rebase
+7bac1d1 HEAD@{72}: rebase -i (continue): Add some images
+271a83e HEAD@{73}: rebase -i (pick): Add some images
+088bdcb HEAD@{74}: rebase -i (start): checkout develop
+768da3b HEAD@{75}: checkout: moving from develop to image-rebase
+088bdcb HEAD@{76}: merge styles-rebase: Fast-forward
+49fb4c6 HEAD@{77}: checkout: moving from styles-rebase to develop
+088bdcb HEAD@{78}: rebase -i (finish): returning to refs/heads/styles-rebase
+088bdcb HEAD@{79}: rebase -i (squash): Add styles
+d47ed12 HEAD@{80}: rebase -i (start): checkout develop
+c90dd0f HEAD@{81}: rebase -i (squash): Add styles
+7a18623 HEAD@{82}: checkout: moving from develop to styles-rebase
+49fb4c6 HEAD@{83}: reset: moving to 49fb4c6
+f42d7a2 HEAD@{84}: checkout: moving from c9d700f5846fcebeb603e529a9821bcd74aefc91 to develop
+c9d700f HEAD@{85}: commit: Add styles
+49fb4c6 HEAD@{86}: reset: moving to 49fb4c6
+f42d7a2 HEAD@{87}: rebase -i (start): checkout develop
+7a18623 HEAD@{88}: checkout: moving from develop to styles-rebase
+f42d7a2 HEAD@{89}: commit: Merge
+49fb4c6 HEAD@{90}: reset: moving to 49fb4c6
+7a18623 HEAD@{91}: merge styles-rebase: Fast-forward
+49fb4c6 HEAD@{92}: checkout: moving from image-rebase to develop
+768da3b HEAD@{93}: commit: Add some image
+c0a49a8 HEAD@{94}: commit: Add some images
+49fb4c6 HEAD@{95}: checkout: moving from develop to image-rebase
+49fb4c6 HEAD@{96}: checkout: moving from images-rebase to develop
+abb83fe HEAD@{97}: commit: Add some image
+745b7de HEAD@{98}: commit: Add some images
+7a18623 HEAD@{99}: checkout: moving from styles-rebase to images-rebase
+7a18623 HEAD@{100}: commit: Add style
+d47ed12 HEAD@{101}: commit: Add styles
+49fb4c6 HEAD@{102}: checkout: moving from develop to styles-rebase
+49fb4c6 HEAD@{103}: checkout: moving from master to develop
+49fb4c6 HEAD@{104}: merge develop: Fast-forward
+cee4c22 HEAD@{105}: checkout: moving from develop to master
+49fb4c6 HEAD@{106}: merge custom-branch1: Merge made by the 'recursive' strategy.
+3dcc022 HEAD@{107}: merge custom-branch: Fast-forward
+5da2e8e HEAD@{108}: checkout: moving from custom-branch1 to develop
+50c7093 HEAD@{109}: commit: Add style
+b17d6a5 HEAD@{110}: commit: Add styles
+5da2e8e HEAD@{111}: checkout: moving from develop to custom-branch1
+5da2e8e HEAD@{112}: checkout: moving from custom-branch to develop
+3dcc022 HEAD@{113}: commit: Add image url
+d1aa167 HEAD@{114}: commit: Add some images
+5da2e8e HEAD@{115}: checkout: moving from develop to custom-branch
+5da2e8e HEAD@{116}: commit: First commit
+cee4c22 HEAD@{117}: checkout: moving from master to develop
+cee4c22 HEAD@{118}:

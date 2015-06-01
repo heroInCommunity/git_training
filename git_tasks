@@ -1,0 +1,120 @@
+git config --global user.name "German Chyzhov"
+git config --global user.email "german.chyzhov@gmail.com"
+
+
+git config --global core.autocrlf input
+git config --global core.safecrlf true
+
+
+git init
+
+1)
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'
+
+2) Create develop branch. Create index.html empty file. Commit
+git checkout -b develop
+git add -A
+git commit -m "First commit"
+
+3) Create branch with any name. Checkout. Add some images folder with images inside it. Commit.
+   Change your index.html. Add some image src inside it. Commit.
+git checkout -b custom-branch
+git add -A
+git commit -m "Add some images"
+
+4) Go back to develop branch.
+git checkout develop
+
+5) Create branch with any name. Add some styles folder with styles source inside it. Commit.
+git checkout -b custom-branch1
+git add -A
+git commit -m "Add styles"
+
+6) Change your index.html. Add some styles inside it. Commit.
+git add -A
+git commit -m "Add style"
+
+7) Go to develop branch.
+   Merge two new branches into develop using git merge command.
+   Don’t delete two new branches!
+git checkout develop
+git merge custom-branch
+git merge custom-branch1
+#merge here
+
+8) Merge develop into master
+git checkout master
+git merge develop
+
+9) Repeat 7-15 items once more, but now use git rebase command for merging. Please, create situation with conflicts. It is will be better for your understanding.
+git checkout -b styles-rebase
+git add -A
+git commit -m "Add some styles"
+
+git add -A
+git commit -m "Add some style"
+
+
+git checkout -b image-rebase
+git add -A
+git commit -m "Add some images"
+
+git add -A
+git commit -m "Add some image"
+
+git checkout styles-rebase
+git rebase -i develop
+git checkout develop
+git merge styles-rebase
+
+git checkout image-rebase
+git rebase -i develop
+git checkout develop
+git merge image-rebase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
