@@ -1,0 +1,201 @@
+span a {
+	float:right;
+	text-decoration:none;
+	font:16px Tahoma,sans-serif;
+	margin-right:10px;
+	color:#fff;
+	font-weight:900;
+	outline:none;
+	font:20px 'Oswald', sans-serif;
+}
+
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+#content {
+	height:37px;
+}
+
+div#container {
+	max-width: 1024px;
+}
+
+div#header {
+	height:20px;
+}
+
+div#tabs {
+	float:left;
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent transparent #ccc;
+	width:100%;
+}
+
+div#tabs a {
+	cursor:pointer;
+	background: inherit;
+	color: #777;
+	display: block;
+	float: left;
+	font-size: 90%;
+	height: 24px;
+	line-height: 20px;
+	margin: 9px 8px 0 0;
+	padding: 0 11px;
+	text-decoration: none;
+	outline:none;
+}
+
+div#tabs a.youarehere {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border-color: #ccc #ccc transparent;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+	color: #8f8f8f;
+	font-size: 120%;
+	height: 30px;
+	line-height: 28px;
+	margin-top: 3px;
+	padding: 0 11px;
+}
+
+div.socialLogIn{
+	margin:10px 0 20px 0;
+}
+
+div.twitter p {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 1px solid #d4d4d4;
+	box-shadow: -1px 1px #f2f2f2;
+	color: #888;
+	cursor: pointer;
+	height: 28px;
+	margin-bottom: 15px;
+	padding: 7px 7px 7px 43px;
+	width: 258px;
+	font: 18px Tahoma, sans-serif;
+}
+
+div.twitter p span{
+	height:28px;
+	width:30px;
+	overflow:hidden;
+	background-image: url("/images/sprite.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	position:absolute;
+	margin-left:-36px;
+	background-position:-31px center;
+	
+}
+
+div.facebook p {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 1px solid #d4d4d4;
+	box-shadow: -1px 1px #f2f2f2;
+	color: #888;
+	cursor: pointer;
+	height: 28px;
+	margin-bottom: 15px;
+	padding: 7px 7px 7px 43px;
+	width: 258px;
+	font: 18px Tahoma, sans-serif;
+}
+
+div.facebook p span{
+	height:28px;
+	width:30px;
+	overflow:hidden;
+	background-image: url("/images/sprite.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	position:absolute;
+	margin-left:-36px;
+	
+}
+
+div.instagram p {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 1px solid #d4d4d4;
+	box-shadow: -1px 1px #f2f2f2;
+	color: #888;
+	cursor: pointer;
+	height: 28px;
+	margin-bottom: 15px;
+	padding: 7px 7px 7px 43px;
+	width: 258px;
+	font: 18px Tahoma, sans-serif;
+}
+
+div.instagram p span{
+	height:28px;
+	width:30px;
+	overflow:hidden;
+	background-image: url("/images/sprite.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	position:absolute;
+	margin-left:-36px;
+	background-position:-93px;
+	
+}
+
+div.google p {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 1px solid #d4d4d4;
+	box-shadow: -1px 1px #f2f2f2;
+	color: #888;
+	cursor: pointer;
+	height: 28px;
+	margin-bottom: 15px;
+	padding: 7px 7px 7px 43px;
+	width: 258px;
+	font: 18px Tahoma, sans-serif;
+}
+
+div.google p span{
+	height:28px;
+	width:30px;
+	overflow:hidden;
+	background-image: url("/images/sprite.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	position:absolute;
+	margin-left:-36px;
+	background-position:-187px;
+	
+}
+
+div.linkedIn p {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 1px solid #d4d4d4;
+	box-shadow: -1px 1px #f2f2f2;
+	color: #888;
+	cursor: pointer;
+	height: 28px;
+	margin-bottom: 15px;
+	padding: 7px 7px 7px 43px;
+	width: 258px;
+	font: 18px Tahoma, sans-serif;
+}
+
+div.linkedIn p span{
+	height:28px;
+	width:30px;
+	overflow:hidden;
+	background-image: url("/images/sprite.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	position:absolute;
+	margin-left:-36px;
+	background-position:-126px;
+	
+}
